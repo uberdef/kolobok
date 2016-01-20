@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "",
       "projectGuid": "f65bbe14-149d-4939-afca-eeb72b24404e",
-      "lastModifiedDate": 1452062574493,
+      "lastModifiedDate": 1453295256844,
       "creationDate": 1452005819219
     },
     "sourceDirectory": "",
@@ -38,7 +38,8 @@
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto",
-          "Fullscreen": true
+          "Fullscreen": true,
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "kolobok",
@@ -51,7 +52,32 @@
           "intents": [],
           "navigation": []
         },
-        "icons_": [],
+        "icons_": [
+          {
+            "relPath": "images/icons/36x36.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          },
+          {
+            "relPath": "images/icons/48x48.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "images/icons/72x72.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "images/icons/96x96.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          }
+        ],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
@@ -70,7 +96,7 @@
           "android-installLocation": "auto",
           "Fullscreen": true
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -98,7 +124,7 @@
           "ios-target": "6",
           "ios-configuration": "adhoc"
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -122,7 +148,7 @@
         "runtime_": "W3C on Cordova",
         "name_": "Windows8",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
