@@ -163,11 +163,8 @@ hr {
 (set: $bad_cook to 0)
 &lt;br&gt;
 &lt;/div&gt;</tw-passagedata>
-<tw-passagedata pid="2" name="Пошла старуха по сусекам мести да по коробу скребсти" tags="" position="503,296">&lt;div style=&quot;height: 36%;&quot;&gt;&lt;img src=&quot;images/02.JPG&quot; alt=&quot;Старик и старуха&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;txt&quot;&gt;&lt;hr&gt;(if: $ingridients is 0)[Да только вот готовить уже не из чего было. И пришлось деду злым и голодным спать ложиться. А на следующий день сделала старуха всё как надо.
-[[И как же получилось?|Замесить муку на сметане и изжарить на масле?]]]
-(else:)[
-Взяла старуха крылышко, по коробу поскребла, по сусеку помела и наскребла муки горсти две.
+<tw-passagedata pid="2" name="Пошла старуха по сусекам мести да по коробу скребсти" tags="" position="504,296">&lt;div style=&quot;height: 36%;&quot;&gt;&lt;img src=&quot;images/02.JPG&quot; alt=&quot;Старик и старуха&quot;&gt;&lt;/div&gt;&lt;div class=&quot;txt&quot;&gt;&lt;hr&gt;(if: $ingridients is 0)[Да только вот готовить уже не из чего было. И пришлось деду злым и голодным спать ложиться. А на следующий день сделала старуха всё как надо.
+[[И как же получилось?|Замесить муку на сметане и изжарить на масле?]]] (else:)[ Взяла старуха крылышко, по коробу поскребла, по сусеку помела и наскребла муки горсти две.
 (print: $name), подскажи, пожалуйста, как поступить бабушке?
 
 [[Замесить муку на сметане и изжарить на масле?]]
@@ -183,8 +180,7 @@ hr {
 .....
 [[Муку на масле замесить, да на сметанке изжарить?]]
 (set: $bad_recept to 1) </tw-passagedata>
-<tw-passagedata pid="4" name="Замесить муку на сметане и изжарить на масле?" tags="" position="431,451">&lt;div style=&quot;height: 36%;&quot;&gt;&lt;img src=&quot;images/03.JPG&quot; alt=&quot;Старик и старуха&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;txt&quot;&gt;&lt;hr&gt;Замесила муку на сметане, состряпала колобок, изжарила в масле.
+<tw-passagedata pid="4" name="Замесить муку на сметане и изжарить на масле?" tags="" position="431,451">&lt;div style=&quot;height: 36%;&quot;&gt;&lt;img src=&quot;images/03.JPG&quot; alt=&quot;Старик и старуха&quot;&gt;&lt;/div&gt;&lt;div class=&quot;txt&quot;&gt;&lt;hr&gt;Замесила муку на сметане, состряпала колобок, изжарила в масле.
 (if: $bad_recept is 1)[ [[Что ж потом?|Положить студиться на окошке?]] ]
 (else:)[ [[Надо бы на окошке Колобка остудить]]
 ]
