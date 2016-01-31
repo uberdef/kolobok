@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "62ee97d5-ebaa-47d5-a182-4f917756f635",
-      "lastModifiedDate": 1454282914099,
+      "lastModifiedDate": 1454284283479,
       "creationDate": 1454282461507
     },
     "sourceDirectory": "",
@@ -68,6 +68,57 @@
         "checksum": "271836cf",
         "gitref": "",
         "description": "Cordova Splashscreen Plugin"
+      },
+      {
+        "id": "org.apache.cordova.file",
+        "name": "File",
+        "version": "1.3.3",
+        "originType": "cordova.io",
+        "origin": "org.apache.cordova.file",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/org.apache.cordova.file",
+        "selectedState": "Included",
+        "checksum": "542f0a36",
+        "dependsOn": [],
+        "topLevel": false,
+        "permissions": {
+          "android:name": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ]
+        },
+        "description": "Cordova File Plugin",
+        "data": {},
+        "dependedBy": [
+          "org.apache.cordova.media"
+        ]
+      },
+      {
+        "id": "org.apache.cordova.media",
+        "name": "Media",
+        "version": "0.2.15",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-media",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/org.apache.cordova.media",
+        "selectedState": "Included",
+        "checksum": "d838e10a",
+        "dependsOn": [
+          "org.apache.cordova.file"
+        ],
+        "topLevel": true,
+        "permissions": {
+          "android:name": [
+            "android.permission.RECORD_AUDIO",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE"
+          ]
+        },
+        "description": "Cordova Media Plugin",
+        "data": {},
+        "dependedBy": []
       }
     ],
     "serviceMethods": [],
