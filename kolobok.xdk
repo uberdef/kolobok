@@ -3,19 +3,24 @@
     "projectSettingsVersion": "2.0.0",
     "creationData": {
       "type": "Import",
-      "projectTypeName": "com.intel.xdk.projecttype.webapp",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "f65bbe14-149d-4939-afca-eeb72b24404e",
-      "lastModifiedDate": 1453295256844,
-      "creationDate": 1452005819219
+      "projectGuid": "62ee97d5-ebaa-47d5-a182-4f917756f635",
+      "lastModifiedDate": 1454282462075,
+      "creationDate": 1454282461507
     },
     "sourceDirectory": "",
     "cordovaPluginsDirectory": "plugins",
     "gameAssetDirectory": "asset",
-    "gameMetadata": {},
+    "gameMetadata": {
+      "gameEngineName": "canvas",
+      "gameEngineVersion": ""
+    },
     "testDirectory": "test",
     "startFile": "index.html",
-    "projectTags": [],
+    "projectTags": [
+      "XDK-game-app"
+    ],
     "projectFiles": {},
     "projectDirectories": {
       "xdk": {
@@ -27,76 +32,48 @@
       }
     },
     "libraries": [],
-    "cordovaPlugins": [],
+    "cordovaPlugins": [
+      {
+        "version": "1.1.0",
+        "sourceLocation": "",
+        "selectedState": "Auto",
+        "name": "Device",
+        "originType": "cordova.io",
+        "id": "cordova-plugin-device",
+        "origin": "cordova-plugin-device",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "version": "2.1.0",
+        "sourceLocation": "",
+        "selectedState": "Auto",
+        "name": "Splashscreen",
+        "originType": "cordova.io",
+        "id": "cordova-plugin-splashscreen",
+        "origin": "cordova-plugin-splashscreen",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": []
+      }
+    ],
     "serviceMethods": [],
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Fullscreen": true,
-          "Orientation": "portrait"
+          "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "kolobok",
-        "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
-        "icons_": [
-          {
-            "relPath": "images/icons/36x36.png",
-            "density": "ldpi",
-            "height": 36,
-            "width": 36
-          },
-          {
-            "relPath": "images/icons/48x48.png",
-            "density": "mdpi",
-            "height": 48,
-            "width": 48
-          },
-          {
-            "relPath": "images/icons/72x72.png",
-            "density": "hdpi",
-            "height": 72,
-            "width": 72
-          },
-          {
-            "relPath": "images/icons/96x96.png",
-            "density": "xhdpi",
-            "height": 96,
-            "width": 96
-          }
-        ],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
-        "crosswalkVersion_": "14",
-        "cordovaCLIVersion_": "5.1.1"
-      },
-      "Android-Crosswalk": {
-        "platform_": "android",
-        "runtime_": "W3C on Crosswalk",
-        "name_": "Android-Crosswalk",
-        "preferences_": {
-          "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Fullscreen": true
-        },
-        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -113,18 +90,47 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "15",
+        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "kolobok",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "14",
         "cordovaCLIVersion_": "5.1.1"
       },
       "iOS": {
         "platform_": "ios",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
           "ios-target": "6",
           "ios-configuration": "adhoc"
         },
-        "isActive_": false,
+        "isActive_": true,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -145,10 +151,10 @@
       },
       "Windows8": {
         "platform_": "windows8",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
-        "isActive_": false,
+        "isActive_": true,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -171,7 +177,7 @@
         "runtime_": "W3C",
         "name_": "WebApp",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -193,7 +199,7 @@
         "runtime_": "W3C on Firefox OS",
         "name_": "Firefox",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -215,7 +221,7 @@
         "runtime_": "W3C on Chrome OS",
         "name_": "Chrome",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -237,7 +243,7 @@
         "runtime_": "W3C on Facebook",
         "name_": "Facebook",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "kolobok",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -256,7 +262,7 @@
       },
       "WP81": {
         "platform_": "wp81",
-        "runtime_": "W3C on Cordova",
+        "runtime_": "Cordova 3.x",
         "name_": "WP81",
         "preferences_": {},
         "isActive_": true,
