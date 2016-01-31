@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "62ee97d5-ebaa-47d5-a182-4f917756f635",
-      "lastModifiedDate": 1454282649384,
+      "lastModifiedDate": 1454282914099,
       "creationDate": 1454282461507
     },
     "sourceDirectory": "",
@@ -34,32 +34,40 @@
     "libraries": [],
     "cordovaPlugins": [
       {
-        "version": "1.1.0",
+        "version": "0.2.13",
         "sourceLocation": "",
-        "selectedState": "Auto",
+        "selectedState": "Included",
         "name": "Device",
         "originType": "cordova.io",
-        "id": "cordova-plugin-device",
+        "id": "org.apache.cordova.device",
         "origin": "cordova-plugin-device",
         "data": {},
         "paramvals": {},
         "permissions": {},
         "dependsOn": [],
-        "dependedBy": []
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "89f19435",
+        "gitref": "",
+        "description": "Cordova Device Plugin"
       },
       {
-        "version": "2.1.0",
+        "version": "0.3.5",
         "sourceLocation": "",
-        "selectedState": "Auto",
+        "selectedState": "Included",
         "name": "Splashscreen",
         "originType": "cordova.io",
-        "id": "cordova-plugin-splashscreen",
+        "id": "org.apache.cordova.splashscreen",
         "origin": "cordova-plugin-splashscreen",
         "data": {},
         "paramvals": {},
         "permissions": {},
         "dependsOn": [],
-        "dependedBy": []
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "271836cf",
+        "gitref": "",
+        "description": "Cordova Splashscreen Plugin"
       }
     ],
     "serviceMethods": [],
@@ -147,7 +155,7 @@
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "14",
-        "cordovaCLIVersion_": "5.1.1",
+        "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "DEF",
         "appDescription_": "Сказка-игра про Колобка"
       },
@@ -178,7 +186,7 @@
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "15",
-        "cordovaCLIVersion_": "5.1.1"
+        "cordovaCLIVersion_": "4.1.2"
       },
       "iOS": {
         "platform_": "ios",
@@ -204,7 +212,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
-        "cordovaCLIVersion_": "5.1.1",
+        "cordovaCLIVersion_": "4.1.2",
         "iosProvs_": []
       },
       "Windows8": {
@@ -228,7 +236,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
-        "cordovaCLIVersion_": "5.1.1"
+        "cordovaCLIVersion_": "4.1.2"
       },
       "WebApp": {
         "platform_": "webapp",
@@ -339,7 +347,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
-        "cordovaCLIVersion_": "5.1.1"
+        "cordovaCLIVersion_": "4.1.2"
       }
     }
   }
